@@ -115,7 +115,7 @@ class Form4Screener:
 if __name__ == "__main__":
     screener = Form4Screener()
     cik = "0000019617"  #JPM
-    start_date = "2020-01-01"
+    start_date = "2015-01-01"
     end_date = "2025-10-01"
 
     filings_json = screener.get_company_filings_json(cik)
